@@ -3,7 +3,7 @@ import logging
 from aiogram import Bot,Dispatcher
 from assets.handlers import router
 async def main():
-    bot = Bot(token='8326643639:AAHPmeKzhP6VLNWan14NL1AH4k2UnyeyDQE')
+    bot = Bot(token='BOT_TOKEN')
     dp =Dispatcher()
     dp.include_router(router)
     logging.basicConfig(level=logging.INFO)
